@@ -1,36 +1,36 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Leaf, Zap, Globe, Recycle, Wind, Sun } from "lucide-react";
+import { Brain, BarChart3, Sprout, TreePine, DollarSign, MapPin } from "lucide-react";
 
 const features = [
   {
-    icon: Leaf,
-    title: "Carbon Reduction",
-    description: "Advanced technologies that significantly reduce carbon emissions and environmental impact across industries."
+    icon: Brain,
+    title: "AI-Driven Analytics",
+    description: "Advanced machine learning algorithms analyze climate data to provide actionable insights for sustainable agriculture and forestry practices."
   },
   {
-    icon: Zap,
-    title: "Clean Energy",
-    description: "Innovative renewable energy solutions that harness natural resources for sustainable power generation."
+    icon: BarChart3,
+    title: "Data Intelligence",
+    description: "Comprehensive data analytics platform that processes environmental data to optimize carbon trading and climate impact assessment."
   },
   {
-    icon: Globe,
-    title: "Global Impact",
-    description: "Scalable climate solutions designed to create positive environmental change on a worldwide scale."
+    icon: Sprout,
+    title: "Smart Agriculture",
+    description: "AI-powered solutions that help farmers adapt to climate change while maximizing crop yields and minimizing environmental impact."
   },
   {
-    icon: Recycle,
-    title: "Circular Economy",
-    description: "Promoting sustainable practices through waste reduction, recycling, and resource optimization."
+    icon: TreePine,
+    title: "Forestry Management",
+    description: "Intelligent forest monitoring and management systems that optimize carbon sequestration and sustainable forestry practices."
   },
   {
-    icon: Wind,
-    title: "Wind Technology",
-    description: "Cutting-edge wind energy systems that maximize efficiency and minimize environmental disruption."
+    icon: DollarSign,
+    title: "Carbon Trading",
+    description: "Streamlined carbon credit verification and trading platform that connects African farmers and foresters to global carbon markets."
   },
   {
-    icon: Sun,
-    title: "Solar Innovation",
-    description: "Next-generation solar technology that makes clean energy more accessible and cost-effective."
+    icon: MapPin,
+    title: "Kenya Pilot Program",
+    description: "Starting our impact in Kenya with localized solutions that understand regional climate challenges and opportunities."
   }
 ];
 
@@ -40,10 +40,10 @@ const FeaturesSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Leading Climate <span className="text-transparent bg-gradient-primary bg-clip-text">Solutions</span>
+            Climate <span className="text-transparent bg-gradient-primary bg-clip-text">AI Platform</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Our comprehensive approach to climate technology addresses the most pressing environmental challenges with innovative, scalable solutions.
+            Our comprehensive AI platform combines data analytics with local expertise to deliver climate solutions tailored for African agriculture and forestry sectors.
           </p>
         </div>
         

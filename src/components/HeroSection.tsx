@@ -20,22 +20,22 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-            Building a <span className="text-transparent bg-gradient-primary bg-clip-text">Sustainable</span> Future
+            <span className="text-transparent bg-gradient-primary bg-clip-text">AI-Powered</span> Climate Solutions for Africa
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed">
-            Revolutionizing climate technology through innovative solutions that protect our planet and create lasting environmental impact.
+            Leveraging data analytics and artificial intelligence to tackle climate challenges across Africa, starting with agriculture and forestry carbon trading in Kenya.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg">
-              Get Started
+              Join Our Pilot Program
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             
             <Button variant="outline" size="lg" className="border-white/30 bg-white/10 text-white hover:bg-white/20 px-8 py-4 text-lg">
               <Play className="mr-2 h-5 w-5" />
-              Watch Demo
+              Learn About Our Platform
             </Button>
           </div>
         </div>

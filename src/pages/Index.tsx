@@ -6,15 +6,15 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>EcoTech Solutions - Leading Climate Technology Innovation</title>
-        <meta name="description" content="Revolutionary climate technology solutions for a sustainable future. Discover our innovative renewable energy systems, carbon reduction technologies, and environmental impact solutions." />
-        <meta name="keywords" content="climate technology, renewable energy, carbon reduction, sustainability, clean energy, environmental solutions" />
-        <meta property="og:title" content="EcoTech Solutions - Leading Climate Technology Innovation" />
-        <meta property="og:description" content="Revolutionary climate technology solutions for a sustainable future. Discover our innovative renewable energy systems and environmental impact solutions." />
+        <title>Jani Intelligence - AI-Powered Climate Solutions for Africa</title>
+        <meta name="description" content="Jani Intelligence leverages data analytics and AI to tackle climate challenges in Africa. Our Climate AI platform focuses on agriculture and forestry carbon trading, starting with Kenya." />
+        <meta name="keywords" content="climate AI, Africa climate solutions, agriculture AI, forestry carbon trading, Kenya climate tech, data analytics climate, artificial intelligence agriculture" />
+        <meta property="og:title" content="Jani Intelligence - AI-Powered Climate Solutions for Africa" />
+        <meta property="og:description" content="Leveraging data analytics and AI to tackle climate challenges in Africa through agriculture and forestry carbon trading solutions." />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="EcoTech Solutions - Leading Climate Technology Innovation" />
-        <meta name="twitter:description" content="Revolutionary climate technology solutions for a sustainable future." />
+        <meta name="twitter:title" content="Jani Intelligence - AI-Powered Climate Solutions for Africa" />
+        <meta name="twitter:description" content="AI-driven climate solutions for African agriculture and forestry sectors." />
         <link rel="canonical" href="/" />
       </Helmet>
       
