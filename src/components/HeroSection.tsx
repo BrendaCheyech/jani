@@ -24,7 +24,7 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed">
-            Leveraging data analytics and artificial intelligence to tackle climate challenges across Africa, starting with agriculture and forestry carbon trading in Kenya.
+            Leveraging data analytics and artificial intelligence to tackle climate challenges across Africa.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
