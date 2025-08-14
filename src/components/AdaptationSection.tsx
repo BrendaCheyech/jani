@@ -5,23 +5,23 @@ import { Shield, TrendingUp, AlertTriangle, Users, Zap, Target } from "lucide-re
 const adaptationFeatures = [
   {
     icon: Shield,
-    title: "Early Warning Systems",
-    description: "AI-powered climate monitoring that provides advance warnings for extreme weather events, helping farmers and communities prepare and protect their assets."
+    title: "Soil Health Monitoring",
+    description: "AI-powered soil analysis that continuously monitors carbon levels, organic matter, and soil health indicators for optimal agricultural management."
   },
   {
     icon: TrendingUp,
-    title: "Adaptive Planning",
-    description: "Data-driven insights that help communities develop long-term adaptation strategies based on projected climate scenarios and local conditions."
+    title: "Carbon Sequestration Optimization",
+    description: "Data-driven insights that help farmers implement practices that maximize soil carbon storage while maintaining productive agriculture."
   },
   {
     icon: AlertTriangle,
-    title: "Risk Assessment",
-    description: "Comprehensive risk analysis tools that identify vulnerabilities and prioritize adaptation investments for maximum impact and resilience."
+    title: "Carbon Credit Verification",
+    description: "Comprehensive verification system that validates soil carbon improvements for transparent and credible carbon credit generation."
   },
   {
     icon: Users,
-    title: "Community Resilience",
-    description: "Building local capacity through training and knowledge sharing, ensuring communities can independently manage climate risks and opportunities."
+    title: "Farmer Training & Support",
+    description: "Building local capacity through training on carbon farming practices, ensuring farmers can independently manage soil carbon projects."
   }
 ];
 
@@ -32,26 +32,26 @@ const AdaptationSection = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Climate <span className="text-transparent bg-gradient-primary bg-clip-text">Adaptation & Resilience</span>
+            Soil Carbon <span className="text-transparent bg-gradient-primary bg-clip-text">Intelligence & Trading</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Our AI platform doesn't just measure climate impact—it builds adaptive capacity. We help African communities anticipate, prepare for, and respond to climate variability while building long-term resilience.
+            Our AI platform measures, monitors, and monetizes soil carbon across African agriculture. We help farmers build carbon-rich soils while accessing global carbon markets for sustainable income.
           </p>
         </div>
 
         {/* Key Stats */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           <div className="text-center p-6 rounded-lg bg-white/5 backdrop-blur-sm border border-white/10">
-            <div className="text-3xl font-bold text-primary mb-2">85%</div>
-            <p className="text-muted-foreground">Improved crop resilience with AI-guided adaptation strategies</p>
+            <div className="text-3xl font-bold text-primary mb-2">2.5x</div>
+            <p className="text-muted-foreground">Average soil carbon increase with AI-guided farming practices</p>
           </div>
           <div className="text-center p-6 rounded-lg bg-white/5 backdrop-blur-sm border border-white/10">
-            <div className="text-3xl font-bold text-primary mb-2">30 Days</div>
-            <p className="text-muted-foreground">Average advance warning time for climate events</p>
+            <div className="text-3xl font-bold text-primary mb-2">$150/ha</div>
+            <p className="text-muted-foreground">Annual carbon credit revenue potential per hectare</p>
           </div>
           <div className="text-center p-6 rounded-lg bg-white/5 backdrop-blur-sm border border-white/10">
-            <div className="text-3xl font-bold text-primary mb-2">500+</div>
-            <p className="text-muted-foreground">Kenyan farmers in our pilot adaptation program</p>
+            <div className="text-3xl font-bold text-primary mb-2">10,000+</div>
+            <p className="text-muted-foreground">Hectares monitored for soil carbon across Africa</p>
           </div>
         </div>
 
@@ -77,48 +77,48 @@ const AdaptationSection = () => {
         {/* Two-Column Content */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h3 className="text-3xl font-bold">Building Climate Resilience Through Intelligence</h3>
+            <h3 className="text-3xl font-bold">Building Soil Carbon Through Intelligence</h3>
             <div className="space-y-4 text-muted-foreground">
               <p className="leading-relaxed">
-                Climate adaptation isn't just about responding to change—it's about building systems that thrive despite uncertainty. Our AI platform analyzes historical climate data, current conditions, and future projections to create adaptive strategies that work.
+                Soil carbon represents the largest opportunity for climate mitigation in agriculture. Our AI platform analyzes soil conditions, farming practices, and environmental factors to create personalized carbon farming strategies that work.
               </p>
               <p className="leading-relaxed">
-                From drought-resistant crop recommendations to optimized planting schedules, we help farmers and forest managers make decisions that build resilience into their operations while maximizing carbon sequestration potential.
+                From cover crop recommendations to precision nutrient management, we help farmers implement practices that build soil carbon while maintaining productivity and accessing carbon credit markets.
               </p>
             </div>
             
             <div className="flex items-center gap-4 pt-4">
               <Zap className="h-8 w-8 text-primary" />
               <div>
-                <h4 className="font-semibold">Real-Time Adaptation</h4>
-                <p className="text-sm text-muted-foreground">Continuous learning algorithms that adapt strategies based on new data and changing conditions</p>
+                <h4 className="font-semibold">Real-Time Carbon Tracking</h4>
+                <p className="text-sm text-muted-foreground">Continuous monitoring algorithms that track soil carbon changes and optimize farming practices in real-time</p>
               </div>
             </div>
             
             <div className="flex items-center gap-4">
               <Target className="h-8 w-8 text-primary" />
               <div>
-                <h4 className="font-semibold">Precision Resilience</h4>
-                <p className="text-sm text-muted-foreground">Location-specific solutions that account for local climate patterns, soil conditions, and socioeconomic factors</p>
+                <h4 className="font-semibold">Precision Carbon Farming</h4>
+                <p className="text-sm text-muted-foreground">Location-specific solutions that account for local soil types, climate patterns, and farming systems for maximum carbon impact</p>
               </div>
             </div>
           </div>
 
           <div className="space-y-6">
             <div className="bg-card rounded-lg p-6 border">
-              <h4 className="text-xl font-semibold mb-4">Adaptation Success Story</h4>
+              <h4 className="text-xl font-semibold mb-4">Carbon Success Story</h4>
               <blockquote className="text-muted-foreground italic mb-4">
-                "Using Jani Intelligence's platform, we shifted to drought-resistant varieties and adjusted our planting calendar. Despite irregular rains this season, our yields increased by 40% while earning carbon credits."
+                "Using Jani Intelligence's platform, we implemented cover crops and reduced tillage. Our soil carbon increased by 60% in two years, and we earned $2,400 in carbon credits last season alone."
               </blockquote>
-              <p className="text-sm font-medium">— Samuel Kimani, Farmer in Kiambu County, Kenya</p>
+              <p className="text-sm font-medium">— Mary Wanjiku, Farmer in Central Kenya</p>
             </div>
             
             <div className="text-center">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4">
-                Join Our Adaptation Program
+                Start Your Carbon Project
               </Button>
               <p className="text-sm text-muted-foreground mt-2">
-                Limited spots available for our Kenya pilot program
+                Join farmers already earning from soil carbon across Africa
               </p>
             </div>
           </div>
