@@ -29,7 +29,7 @@ const HeroSection = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg">
-              Join Our Pilot Program
+              Access Our Platform
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             
