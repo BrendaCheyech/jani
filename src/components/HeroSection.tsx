@@ -20,11 +20,11 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-            <span className="text-transparent bg-gradient-primary bg-clip-text">AI-Powered</span> Climate Solutions for Africa
+            <span className="text-transparent bg-gradient-primary bg-clip-text">AI-Powered</span> Soil Carbon Intelligence for Africa
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed">
-            Leveraging data analytics and artificial intelligence to tackle climate challenges across Africa.
+            Leveraging data analytics and artificial intelligence to measure, monitor, and optimize soil carbon across Africa.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
