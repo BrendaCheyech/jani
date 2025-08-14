@@ -20,7 +20,7 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-            <span className="text-transparent bg-gradient-primary bg-clip-text">AI-Powered</span> Soil Carbon Intelligence for Africa
+            <span className="text-transparent bg-gradient-primary bg-clip-text">AI-Powered</span> Platform for Africa
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed">
