@@ -5,23 +5,23 @@ import { Shield, TrendingUp, AlertTriangle, Users, Zap, Target } from "lucide-re
 const adaptationFeatures = [
   {
     icon: Shield,
-    title: "Soil Health Monitoring",
-    description: "AI-powered soil analysis that continuously monitors carbon levels, organic matter, and soil health indicators for optimal agricultural management."
+    title: "Risk Assessment",
+    description: "AI-powered analysis of climate vulnerabilities and adaptive capacity to help communities prepare for and respond to climate challenges."
   },
   {
     icon: TrendingUp,
-    title: "Carbon Sequestration Optimization",
-    description: "Data-driven insights that help farmers implement practices that maximize soil carbon storage while maintaining productive agriculture."
+    title: "Resilience Building",
+    description: "Data-driven strategies that strengthen community resilience through improved agricultural practices and sustainable resource management."
   },
   {
     icon: AlertTriangle,
-    title: "Carbon Credit Verification",
-    description: "Comprehensive verification system that validates soil carbon improvements for transparent and credible carbon credit generation."
+    title: "Early Warning Systems",
+    description: "Advanced prediction models that provide timely alerts for climate-related risks, enabling proactive response and mitigation measures."
   },
   {
     icon: Users,
-    title: "Farmer Training & Support",
-    description: "Building local capacity through training on carbon farming practices, ensuring farmers can independently manage soil carbon projects."
+    title: "Community Empowerment",
+    description: "Building local capacity through training and knowledge transfer, ensuring communities can independently manage climate adaptation initiatives."
   }
 ];
 
@@ -32,10 +32,10 @@ const AdaptationSection = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Soil Carbon <span className="text-transparent bg-gradient-primary bg-clip-text">Intelligence & Trading</span>
+            Climate <span className="text-transparent bg-gradient-primary bg-clip-text">Adaptation & Resilience</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Our AI platform measures, monitors, and monetizes soil carbon across African agriculture. We help farmers build carbon-rich soils while accessing global carbon markets for sustainable income.
+            Our AI platform helps African communities adapt to climate change through data-driven insights, early warning systems, and capacity building initiatives that strengthen resilience across agriculture and forestry sectors.
           </p>
         </div>
 

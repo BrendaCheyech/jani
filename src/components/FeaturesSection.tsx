@@ -5,27 +5,27 @@ const features = [
   {
     icon: Brain,
     title: "AI-Driven Analytics",
-    description: "Advanced machine learning algorithms analyze soil carbon data to provide actionable insights for sustainable agriculture practices."
+    description: "Advanced machine learning algorithms analyze climate and environmental data to provide actionable insights for sustainable agriculture and forestry practices."
   },
   {
     icon: BarChart3,
     title: "Data Intelligence",
-    description: "Comprehensive data analytics platform that processes soil and environmental data to optimize carbon trading and impact assessment."
+    description: "Comprehensive data analytics platform that processes satellite imagery, weather patterns, and ground sensors to optimize farming and forestry management."
   },
   {
     icon: Sprout,
     title: "Smart Agriculture",
-    description: "AI-powered solutions that help farmers maximize soil carbon while optimizing crop yields and sustainable farming practices."
+    description: "AI-powered solutions that help farmers optimize crop yields while maintaining environmental sustainability through precision agriculture techniques."
   },
   {
     icon: Leaf,
-    title: "Soil Carbon Monitoring",
-    description: "Precise measurement and monitoring of soil carbon levels using satellite data and ground sensors for accurate carbon accounting."
+    title: "Climate Monitoring",
+    description: "Real-time monitoring of environmental conditions using satellite data and ground sensors to track climate impacts and carbon sequestration."
   },
   {
     icon: DollarSign,
     title: "Carbon Trading",
-    description: "Streamlined carbon credit verification and trading platform that connects African farmers to global carbon markets through soil carbon projects."
+    description: "Streamlined carbon credit verification and trading platform that connects African farmers and forest managers to global carbon markets."
   }
 ];
 
@@ -35,10 +35,10 @@ const FeaturesSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Soil Carbon <span className="text-transparent bg-gradient-primary bg-clip-text">AI Platform</span>
+            Climate <span className="text-transparent bg-gradient-primary bg-clip-text">AI Platform</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Our comprehensive AI platform combines data analytics with local expertise to deliver soil carbon solutions tailored for African agriculture sectors.
+            Our comprehensive AI platform combines data analytics with local expertise to deliver climate solutions tailored for African agriculture and forestry sectors.
           </p>
         </div>
         
