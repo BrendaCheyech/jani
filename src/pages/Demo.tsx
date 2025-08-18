@@ -9,9 +9,9 @@ const Demo = () => {
   return (
     <>
       <Helmet>
-        <title>Platform Demo - Jani Intelligence | AI-Powered Soil Carbon Solutions</title>
-        <meta name="description" content="Experience our AI-powered platform for soil carbon monitoring and carbon trading in Africa. See real-time analytics, carbon measurement tools, and market insights." />
-        <meta name="keywords" content="soil carbon demo, AI platform demo, carbon trading platform, soil monitoring dashboard, Africa carbon solutions" />
+        <title>Platform Demo - Jani Intelligence | AI-Powered Soil Carbon & Regenerative Agriculture</title>
+        <meta name="description" content="Experience our AI-powered platform for soil carbon monitoring and regenerative agriculture in Africa. See real-time soil health analytics, carbon sequestration tools, and sustainable farming insights." />
+        <meta name="keywords" content="soil carbon demo, regenerative agriculture platform, soil health monitoring, carbon sequestration, sustainable farming Africa, soil carbon trading" />
         <link rel="canonical" href="/demo" />
       </Helmet>
       
@@ -40,7 +40,7 @@ const Demo = () => {
                 Platform <span className="text-transparent bg-gradient-primary bg-clip-text">Demo</span>
               </h1>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                Explore our AI-powered platform for soil carbon monitoring and climate solutions across Africa
+                Explore our AI-powered platform for soil carbon monitoring and regenerative agriculture practices across Africa
               </p>
             </div>
 
@@ -48,14 +48,14 @@ const Demo = () => {
             <div className="grid gap-8 mb-12">
               <Card className="border-2 border-primary/20">
                 <CardHeader>
-                  <div className="flex items-center justify-between">
+                    <div className="flex items-center justify-between">
                     <div>
                       <CardTitle className="flex items-center gap-2">
                         <BarChart3 className="h-6 w-6 text-primary" />
-                        Carbon Analytics Dashboard
+                        Soil Carbon & Regenerative Agriculture Dashboard
                       </CardTitle>
                       <CardDescription>
-                        Real-time soil carbon measurements and analytics
+                        Real-time soil health monitoring and regenerative agriculture metrics
                       </CardDescription>
                     </div>
                     <Badge variant="outline">Real-time</Badge>
@@ -69,11 +69,11 @@ const Demo = () => {
                     </div>
                     <div className="text-center p-6 bg-green-500/5 rounded-lg">
                       <div className="text-3xl font-bold text-green-600 mb-2">450K</div>
-                      <div className="text-sm text-muted-foreground">Tons CO₂ Sequestered</div>
+                      <div className="text-sm text-muted-foreground">Tons Soil Carbon Sequestered</div>
                     </div>
                     <div className="text-center p-6 bg-blue-500/5 rounded-lg">
                       <div className="text-3xl font-bold text-blue-600 mb-2">$12.8M</div>
-                      <div className="text-sm text-muted-foreground">Carbon Credits Value</div>
+                      <div className="text-sm text-muted-foreground">Soil Carbon Credits Value</div>
                     </div>
                   </div>
                 </CardContent>
@@ -85,15 +85,15 @@ const Demo = () => {
                   <CardHeader>
                     <CardTitle className="flex items-center gap-2">
                       <MapPin className="h-5 w-5 text-primary" />
-                      Field Mapping
+                      Soil Health Mapping
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground mb-4">
-                      AI-powered satellite imagery analysis for precise field mapping and soil carbon assessment.
+                      AI-powered satellite imagery analysis for precise soil health mapping and carbon sequestration potential assessment.
                     </p>
                     <Button variant="outline" size="sm" className="w-full">
-                      View Maps
+                      View Soil Maps
                     </Button>
                   </CardContent>
                 </Card>
@@ -102,15 +102,15 @@ const Demo = () => {
                   <CardHeader>
                     <CardTitle className="flex items-center gap-2">
                       <Leaf className="h-5 w-5 text-green-600" />
-                      Carbon Tracking
+                      Regenerative Practices
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground mb-4">
-                      Monitor soil carbon levels in real-time with our advanced sensor network and AI analytics.
+                      Monitor soil carbon levels and track regenerative agriculture practices with our advanced sensor network and AI analytics.
                     </p>
                     <Button variant="outline" size="sm" className="w-full">
-                      Track Carbon
+                      Track Practices
                     </Button>
                   </CardContent>
                 </Card>
@@ -119,15 +119,15 @@ const Demo = () => {
                   <CardHeader>
                     <CardTitle className="flex items-center gap-2">
                       <TrendingUp className="h-5 w-5 text-blue-600" />
-                      Market Access
+                      Soil Carbon Markets
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground mb-4">
-                      Connect with global carbon markets and monetize your soil carbon improvements.
+                      Connect with global soil carbon markets and monetize your regenerative agriculture practices and soil carbon improvements.
                     </p>
                     <Button variant="outline" size="sm" className="w-full">
-                      Access Markets
+                      Access Soil Carbon Markets
                     </Button>
                   </CardContent>
                 </Card>
@@ -148,17 +148,17 @@ const Demo = () => {
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="bg-card p-6 rounded-lg">
                       <p className="text-muted-foreground mb-4">
-                        "Jani Intelligence helped me increase my soil carbon by 30% and access $15,000 in carbon credits last year."
+                        "Through regenerative agriculture practices guided by Jani Intelligence, I increased my soil carbon by 30% and accessed $15,000 in soil carbon credits last year."
                       </p>
                       <div className="font-medium">Sarah M., Kenya</div>
-                      <div className="text-sm text-muted-foreground">Maize Farmer, 45 hectares</div>
+                      <div className="text-sm text-muted-foreground">Regenerative Maize Farmer, 45 hectares</div>
                     </div>
                     <div className="bg-card p-6 rounded-lg">
                       <p className="text-muted-foreground mb-4">
-                        "The real-time monitoring system alerts me to soil health changes, improving my crop yields significantly."
+                        "The soil health monitoring system helps me track my regenerative practices, improving both soil carbon and crop yields significantly."
                       </p>
                       <div className="font-medium">John A., Ghana</div>
-                      <div className="text-sm text-muted-foreground">Cocoa Farmer, 23 hectares</div>
+                      <div className="text-sm text-muted-foreground">Regenerative Cocoa Farmer, 23 hectares</div>
                     </div>
                   </div>
                 </CardContent>
@@ -169,7 +169,7 @@ const Demo = () => {
             <div className="text-center">
               <h2 className="text-2xl font-bold mb-4">Ready to Get Started?</h2>
               <p className="text-muted-foreground mb-6 max-w-lg mx-auto">
-                Join thousands of African farmers already benefiting from our AI-powered soil carbon platform.
+                Join thousands of African farmers already benefiting from our AI-powered soil carbon and regenerative agriculture platform.
               </p>
               <Button size="lg" className="px-8">
                 Request Full Access
