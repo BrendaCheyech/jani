@@ -5,23 +5,23 @@ import { Shield, TrendingUp, AlertTriangle, Users, Zap, Target } from "lucide-re
 const adaptationFeatures = [
   {
     icon: Shield,
-    title: "Risk Assessment",
-    description: "AI-powered analysis of climate vulnerabilities and adaptive capacity to help communities prepare for and respond to climate challenges."
+    title: "Soil Carbon Risk Assessment",
+    description: "AI-powered analysis of soil carbon vulnerabilities and regenerative potential to help farmers prepare for and implement soil carbon projects."
   },
   {
     icon: TrendingUp,
-    title: "Resilience Building",
-    description: "Data-driven strategies that strengthen community resilience through improved agricultural practices and sustainable resource management."
+    title: "Regenerative Resilience Building",
+    description: "Data-driven regenerative agriculture strategies that strengthen farm resilience through improved soil health and carbon sequestration practices."
   },
   {
     icon: AlertTriangle,
-    title: "Early Warning Systems",
-    description: "Advanced prediction models that provide timely alerts for climate-related risks, enabling proactive response and mitigation measures."
+    title: "Soil Health Early Warning",
+    description: "Advanced prediction models that provide timely alerts for soil health changes, enabling proactive regenerative agriculture response measures."
   },
   {
     icon: Users,
-    title: "Community Empowerment",
-    description: "Building local capacity through training and knowledge transfer, ensuring communities can independently manage climate adaptation initiatives."
+    title: "Farmer Empowerment",
+    description: "Building local capacity through regenerative agriculture training and knowledge transfer, ensuring farmers can independently manage soil carbon projects."
   }
 ];
 
@@ -32,10 +32,10 @@ const AdaptationSection = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Climate <span className="text-transparent bg-gradient-primary bg-clip-text">Adaptation & Resilience</span>
+            Soil Carbon <span className="text-transparent bg-gradient-primary bg-clip-text">& Regenerative Agriculture</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Our AI platform helps African communities adapt to climate change through data-driven insights, early warning systems, and capacity building initiatives that strengthen resilience across agriculture and forestry sectors.
+            Our AI platform helps African farmers build soil carbon through regenerative agriculture practices, providing data-driven insights, monitoring systems, and market access that strengthen farm resilience and profitability.
           </p>
         </div>
 
@@ -43,11 +43,11 @@ const AdaptationSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           <div className="text-center p-6 rounded-lg bg-white/5 backdrop-blur-sm border border-white/10">
             <div className="text-3xl font-bold text-primary mb-2">2.5x</div>
-            <p className="text-muted-foreground">Average soil carbon increase with AI-guided farming practices</p>
+            <p className="text-muted-foreground">Average soil carbon increase with regenerative agriculture practices</p>
           </div>
           <div className="text-center p-6 rounded-lg bg-white/5 backdrop-blur-sm border border-white/10">
             <div className="text-3xl font-bold text-primary mb-2">$150/ha</div>
-            <p className="text-muted-foreground">Annual carbon credit revenue potential per hectare</p>
+            <p className="text-muted-foreground">Annual soil carbon credit revenue potential per hectare</p>
           </div>
           <div className="text-center p-6 rounded-lg bg-white/5 backdrop-blur-sm border border-white/10">
             <div className="text-3xl font-bold text-primary mb-2">10,000+</div>
@@ -108,17 +108,17 @@ const AdaptationSection = () => {
             <div className="bg-card rounded-lg p-6 border">
               <h4 className="text-xl font-semibold mb-4">Carbon Success Story</h4>
               <blockquote className="text-muted-foreground italic mb-4">
-                "Using Jani Intelligence's platform, we implemented cover crops and reduced tillage. Our soil carbon increased by 60% in two years, and we earned $2,400 in carbon credits last season alone."
+                "Using Jani Intelligence's regenerative agriculture platform, we implemented cover crops and reduced tillage. Our soil carbon increased by 60% in two years, and we earned $2,400 in soil carbon credits last season alone."
               </blockquote>
-              <p className="text-sm font-medium">— Mary Wanjiku, Farmer in Central Kenya</p>
+              <p className="text-sm font-medium">— Mary Wanjiku, Regenerative Farmer in Central Kenya</p>
             </div>
             
             <div className="text-center">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4">
-                Start Your Carbon Project
+                Start Your Soil Carbon Project
               </Button>
               <p className="text-sm text-muted-foreground mt-2">
-                Join farmers already earning from soil carbon across Africa
+                Join regenerative farmers already earning from soil carbon across Africa
               </p>
             </div>
           </div>

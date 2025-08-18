@@ -4,28 +4,28 @@ import { Brain, BarChart3, Sprout, DollarSign, Leaf } from "lucide-react";
 const features = [
   {
     icon: Brain,
-    title: "AI-Driven Analytics",
-    description: "Advanced machine learning algorithms analyze climate and environmental data to provide actionable insights for sustainable agriculture and forestry practices."
+    title: "AI-Driven Soil Analysis",
+    description: "Advanced machine learning algorithms analyze soil conditions, carbon content, and regenerative potential to provide actionable insights for sustainable farming practices."
   },
   {
     icon: BarChart3,
-    title: "Data Intelligence",
-    description: "Comprehensive data analytics platform that processes satellite imagery, weather patterns, and ground sensors to optimize farming and forestry management."
+    title: "Soil Carbon Intelligence",
+    description: "Comprehensive soil carbon analytics platform that processes satellite imagery, soil sensors, and farming data to optimize regenerative agriculture management."
   },
   {
     icon: Sprout,
-    title: "Smart Agriculture",
-    description: "AI-powered solutions that help farmers optimize crop yields while maintaining environmental sustainability through precision agriculture techniques."
+    title: "Regenerative Agriculture",
+    description: "AI-powered regenerative farming solutions that help farmers build soil carbon, improve soil health, and increase yields through sustainable practices."
   },
   {
     icon: Leaf,
-    title: "Climate Monitoring",
-    description: "Real-time monitoring of environmental conditions using satellite data and ground sensors to track climate impacts and carbon sequestration."
+    title: "Soil Health Monitoring",
+    description: "Real-time monitoring of soil carbon levels and health indicators using satellite data and ground sensors to track regenerative agriculture progress."
   },
   {
     icon: DollarSign,
-    title: "Carbon Trading",
-    description: "Streamlined carbon credit verification and trading platform that connects African farmers and forest managers to global carbon markets."
+    title: "Soil Carbon Trading",
+    description: "Streamlined soil carbon credit verification and trading platform that connects African regenerative farmers to global soil carbon markets."
   }
 ];
 
@@ -35,10 +35,10 @@ const FeaturesSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Climate <span className="text-transparent bg-gradient-primary bg-clip-text">AI Platform</span>
+            Soil Carbon <span className="text-transparent bg-gradient-primary bg-clip-text">AI Platform</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Our comprehensive AI platform combines data analytics with local expertise to deliver climate solutions tailored for African agriculture and forestry sectors.
+            Our comprehensive AI platform combines soil carbon analytics with regenerative agriculture expertise to deliver sustainable farming solutions tailored for African agriculture.
           </p>
         </div>
         
