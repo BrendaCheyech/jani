@@ -1,31 +1,36 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Brain, BarChart3, Sprout, DollarSign, Leaf } from "lucide-react";
+import { Brain, BarChart3, Sprout, TreePine, DollarSign, MapPin } from "lucide-react";
 
 const features = [
   {
     icon: Brain,
     title: "AI-Driven Analytics",
-    description: "Advanced machine learning algorithms analyze climate and environmental data to provide actionable insights for sustainable agriculture and forestry practices."
+    description: "Advanced machine learning algorithms analyze climate data to provide actionable insights for sustainable agriculture and forestry practices."
   },
   {
     icon: BarChart3,
     title: "Data Intelligence",
-    description: "Comprehensive data analytics platform that processes satellite imagery, weather patterns, and ground sensors to optimize farming and forestry management."
+    description: "Comprehensive data analytics platform that processes environmental data to optimize carbon trading and climate impact assessment."
   },
   {
     icon: Sprout,
     title: "Smart Agriculture",
-    description: "AI-powered solutions that help farmers optimize crop yields while maintaining environmental sustainability through precision agriculture techniques."
+    description: "AI-powered solutions that help farmers adapt to climate change while maximizing crop yields and minimizing environmental impact."
   },
   {
-    icon: Leaf,
-    title: "Climate Monitoring",
-    description: "Real-time monitoring of environmental conditions using satellite data and ground sensors to track climate impacts and carbon sequestration."
+    icon: TreePine,
+    title: "Forestry Management",
+    description: "Intelligent forest monitoring and management systems that optimize carbon sequestration and sustainable forestry practices."
   },
   {
     icon: DollarSign,
     title: "Carbon Trading",
-    description: "Streamlined carbon credit verification and trading platform that connects African farmers and forest managers to global carbon markets."
+    description: "Streamlined carbon credit verification and trading platform that connects African farmers and foresters to global carbon markets."
+  },
+  {
+    icon: MapPin,
+    title: "Kenya Pilot Program",
+    description: "Starting our impact in Kenya with localized solutions that understand regional climate challenges and opportunities."
   }
 ];
 
