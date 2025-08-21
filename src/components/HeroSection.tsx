@@ -25,7 +25,7 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed">
-            Leveraging AI and regenerative agriculture practices to measure, monitor, and optimize soil carbon sequestration across Africa.
+            Leveraging data analytics and artificial intelligence to measure, monitor, and optimize soil carbon across Africa.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
@@ -38,7 +38,7 @@ const HeroSection = () => {
             
             <Button variant="outline" size="lg" className="border-white/30 bg-white/10 text-white hover:bg-white/20 px-8 py-4 text-lg">
               <Play className="mr-2 h-5 w-5" />
-              Learn About Regenerative Agriculture
+              Learn About Our Platform
             </Button>
           </div>
         </div>

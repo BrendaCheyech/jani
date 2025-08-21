@@ -7,15 +7,15 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Jani Intelligence - AI-Powered Soil Carbon & Regenerative Agriculture for Africa</title>
-        <meta name="description" content="Jani Intelligence leverages AI to measure, monitor, and monetize soil carbon through regenerative agriculture across Africa. Our platform helps farmers build carbon-rich soils while accessing global carbon markets." />
-        <meta name="keywords" content="soil carbon AI Africa, regenerative agriculture platform, soil carbon monitoring, carbon farming Africa, regenerative farming practices, soil health technology" />
-        <meta property="og:title" content="Jani Intelligence - AI-Powered Soil Carbon & Regenerative Agriculture for Africa" />
-        <meta property="og:description" content="AI-driven soil carbon intelligence and regenerative agriculture solutions for African farmers. Build carbon-rich soils and access global carbon markets." />
+        <title>Jani Intelligence - AI-Powered Soil Carbon Solutions for Africa</title>
+        <meta name="description" content="Jani Intelligence leverages AI to measure, monitor, and monetize soil carbon across African agriculture. Our platform helps farmers build carbon-rich soils while accessing global carbon markets." />
+        <meta name="keywords" content="soil carbon AI, Africa carbon trading, agriculture carbon credits, soil carbon monitoring, carbon farming Africa, AI agriculture Africa" />
+        <meta property="og:title" content="Jani Intelligence - AI-Powered Soil Carbon Solutions for Africa" />
+        <meta property="og:description" content="AI-driven soil carbon intelligence for African farmers. Build carbon-rich soils and access global carbon markets." />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Jani Intelligence - AI-Powered Soil Carbon & Regenerative Agriculture for Africa" />
-        <meta name="twitter:description" content="AI-driven soil carbon monitoring and regenerative agriculture platform for African farmers." />
+        <meta name="twitter:title" content="Jani Intelligence - AI-Powered Soil Carbon Solutions for Africa" />
+        <meta name="twitter:description" content="AI-driven soil carbon monitoring and carbon trading platform for African agriculture." />
         <link rel="canonical" href="/" />
       </Helmet>
       
