@@ -1,7 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import HeroSection from "@/components/HeroSection";
 import FeaturesSection from "@/components/FeaturesSection";
-import AdaptationSection from "@/components/AdaptationSection";
 
 const Index = () => {
   return (
@@ -22,7 +21,6 @@ const Index = () => {
       <main>
         <HeroSection />
         <FeaturesSection />
-        <AdaptationSection />
       </main>
     </>
   );
