@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/climate-hero.jpg";
 
 const HeroSection = () => {
@@ -28,13 +29,15 @@ const HeroSection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg">
-              Join Our Pilot Program
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            <Link to="/demo">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg">
+                <Play className="mr-2 h-5 w-5" />
+                Try Platform Demo
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </Link>
             
             <Button variant="outline" size="lg" className="border-white/30 bg-white/10 text-white hover:bg-white/20 px-8 py-4 text-lg">
-              <Play className="mr-2 h-5 w-5" />
               Learn About Our Platform
             </Button>
           </div>

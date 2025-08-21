@@ -29,8 +29,8 @@ const features = [
   },
   {
     icon: MapPin,
-    title: "Kenya Pilot Program",
-    description: "Starting our impact in Kenya with localized solutions that understand regional climate challenges and opportunities."
+    title: "Kenya Operations",
+    description: "Operating in Kenya with localized solutions that understand regional climate challenges and opportunities."
   }
 ];
 
