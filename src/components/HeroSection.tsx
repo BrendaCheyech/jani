@@ -8,17 +8,18 @@ const HeroSection = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
         style={{ backgroundImage: `url(${heroImage})` }}
-      >
-        <div className="absolute inset-0 bg-black/40" />
-      </div>
+      />
+      
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black/30 z-10" />
       
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-hero" />
+      <div className="absolute inset-0 bg-gradient-hero z-20" />
       
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 text-center text-white">
+      <div className="relative z-30 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
             <span className="text-transparent bg-gradient-primary bg-clip-text">AI-Powered</span> Climate Solutions for Africa
