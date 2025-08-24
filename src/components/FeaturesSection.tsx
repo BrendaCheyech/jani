@@ -5,32 +5,32 @@ const features = [
   {
     icon: Brain,
     title: "AI-Driven Analytics",
-    description: "Advanced machine learning algorithms analyze climate data to provide actionable insights for sustainable agriculture and forestry practices."
+    description: "Advanced machine learning algorithms analyze climate data to provide actionable insights for sustainable agriculture and carbon management."
   },
   {
     icon: BarChart3,
     title: "Data Intelligence",
-    description: "Comprehensive data analytics platform that processes environmental data to optimize carbon trading and climate impact assessment."
+    description: "Comprehensive data analytics platform that processes environmental data to optimize carbon sequestration and agricultural productivity."
   },
   {
     icon: Sprout,
     title: "Smart Agriculture",
-    description: "AI-powered solutions that help farmers adapt to climate change while maximizing crop yields and minimizing environmental impact."
+    description: "AI-powered solutions that help farmers optimize crop yields while implementing sustainable and climate-smart agricultural practices."
   },
   {
     icon: TreePine,
-    title: "Forestry Management",
-    description: "Intelligent forest monitoring and management systems that optimize carbon sequestration and sustainable forestry practices."
+    title: "Soil Carbon",
+    description: "Advanced soil carbon monitoring and measurement systems that track carbon sequestration in agricultural soils and provide verification data."
+  },
+  {
+    icon: Sprout,
+    title: "Regenerative Agriculture",
+    description: "Holistic farming practices that restore soil health, increase biodiversity, and enhance carbon storage while improving farm productivity."
   },
   {
     icon: DollarSign,
-    title: "Carbon Trading",
-    description: "Streamlined carbon credit verification and trading platform that connects African farmers and foresters to global carbon markets."
-  },
-  {
-    icon: MapPin,
-    title: "Kenya Operations",
-    description: "Operating in Kenya with localized solutions that understand regional climate challenges and opportunities."
+    title: "Carbon Credit",
+    description: "Streamlined carbon credit verification and trading platform that connects African farmers to global carbon markets for soil and agricultural carbon projects."
   }
 ];
 
