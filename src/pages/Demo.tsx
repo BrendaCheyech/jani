@@ -48,7 +48,7 @@ const Demo = () => {
           <div className="container mx-auto px-4 text-center">
             <div className="max-w-4xl mx-auto space-y-8">
               <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight">
-                Experience Our <span className="text-transparent bg-gradient-primary bg-clip-text">AI Platform</span>
+                Experience Our <span className="text-transparent bg-gradient-primary bg-clip-text">Climate Intelligence Platform</span>
               </h1>
               
               <p className="text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
@@ -71,7 +71,7 @@ const Demo = () => {
                 Platform <span className="text-transparent bg-gradient-primary bg-clip-text">Features</span>
               </h2>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Discover how our AI platform transforms climate data into actionable insights for sustainable agriculture and forestry.
+                Discover how our Climate Intelligence platform transforms climate data into actionable insights for sustainable agriculture and forestry.
               </p>
             </div>
             

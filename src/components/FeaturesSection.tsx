@@ -40,7 +40,7 @@ const FeaturesSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Climate <span className="text-transparent bg-gradient-primary bg-clip-text">AI Platform</span>
+            Climate <span className="text-transparent bg-gradient-primary bg-clip-text">Intelligence Platform</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Our comprehensive AI platform combines data analytics with local expertise to deliver climate solutions tailored for African agriculture and forestry sectors.

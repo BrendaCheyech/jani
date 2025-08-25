@@ -35,7 +35,7 @@ const AdaptationSection = () => {
             Climate <span className="text-transparent bg-gradient-primary bg-clip-text">Adaptation & Resilience</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Our AI platform doesn't just measure climate impact—it builds adaptive capacity. We help African communities anticipate, prepare for, and respond to climate variability while building long-term resilience.
+            Our Climate Intelligence platform doesn't just measure climate impact—it builds adaptive capacity. We help African communities anticipate, prepare for, and respond to climate variability while building long-term resilience.
           </p>
         </div>
 
@@ -80,7 +80,7 @@ const AdaptationSection = () => {
             <h3 className="text-3xl font-bold">Building Climate Resilience Through Intelligence</h3>
             <div className="space-y-4 text-muted-foreground">
               <p className="leading-relaxed">
-                Climate adaptation isn't just about responding to change—it's about building systems that thrive despite uncertainty. Our AI platform analyzes historical climate data, current conditions, and future projections to create adaptive strategies that work.
+                Climate adaptation isn't just about responding to change—it's about building systems that thrive despite uncertainty. Our Climate Intelligence platform analyzes historical climate data, current conditions, and future projections to create adaptive strategies that work.
               </p>
               <p className="leading-relaxed">
                 From drought-resistant crop recommendations to optimized planting schedules, we help farmers and forest managers make decisions that build resilience into their operations while maximizing carbon sequestration potential.
