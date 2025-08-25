@@ -30,14 +30,14 @@ const Demo = () => {
   return (
     <>
       <Helmet>
-        <title>Platform Demo - Jani Intelligence Climate AI</title>
+        <title>Platform Demo - Jani Intelligence Climate Intelligence</title>
         <meta name="description" content="Experience Jani Intelligence's AI-powered climate platform demo. Try our real-time analytics, impact tracking, and climate adaptation tools." />
         <meta name="keywords" content="climate AI demo, platform demo, climate analytics, carbon tracking, AI agriculture demo" />
-        <meta property="og:title" content="Platform Demo - Jani Intelligence Climate AI" />
+        <meta property="og:title" content="Platform Demo - Jani Intelligence Climate Intelligence" />
         <meta property="og:description" content="Try our AI-powered climate platform with real-time analytics and impact tracking tools." />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Platform Demo - Jani Intelligence Climate AI" />
+        <meta name="twitter:title" content="Platform Demo - Jani Intelligence Climate Intelligence" />
         <meta name="twitter:description" content="Experience our AI climate platform demo with real-time analytics and insights." />
         <link rel="canonical" href="/demo" />
       </Helmet>

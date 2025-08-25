@@ -7,7 +7,7 @@ const Index = () => {
     <>
       <Helmet>
         <title>Jani Intelligence - AI-Powered Climate Solutions for Africa</title>
-        <meta name="description" content="Jani Intelligence leverages data analytics and AI to tackle climate challenges in Africa. Our Climate AI platform focuses on agriculture and forestry carbon trading, starting with Kenya." />
+        <meta name="description" content="Jani Intelligence leverages data analytics and AI to tackle climate challenges in Africa. Our Climate Intelligence platform focuses on agriculture and forestry carbon trading, starting with Kenya." />
         <meta name="keywords" content="climate AI, Africa climate solutions, agriculture AI, forestry carbon trading, Kenya climate tech, data analytics climate, artificial intelligence agriculture" />
         <meta property="og:title" content="Jani Intelligence - AI-Powered Climate Solutions for Africa" />
         <meta property="og:description" content="Leveraging data analytics and AI to tackle climate challenges in Africa through agriculture and forestry carbon trading solutions." />
