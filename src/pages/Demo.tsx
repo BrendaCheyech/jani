@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Play, BarChart3, MapPin, TrendingUp, Leaf, Users } from "lucide-react";
+import NavigationTabs from "@/components/NavigationTabs";
 
 const demoFeatures = [
   {
@@ -41,6 +42,8 @@ const Demo = () => {
         <meta name="twitter:description" content="Experience our AI climate platform demo with real-time analytics and insights." />
         <link rel="canonical" href="/demo" />
       </Helmet>
+      
+      <NavigationTabs />
       
       <main>
         {/* Hero Section */}

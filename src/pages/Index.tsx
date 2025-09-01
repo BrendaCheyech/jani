@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import HeroSection from "@/components/HeroSection";
 import FeaturesSection from "@/components/FeaturesSection";
+import NavigationTabs from "@/components/NavigationTabs";
 
 const Index = () => {
   return (
@@ -17,6 +18,8 @@ const Index = () => {
         <meta name="twitter:description" content="AI-driven climate solutions for African agriculture and forestry sectors." />
         <link rel="canonical" href="/" />
       </Helmet>
+      
+      <NavigationTabs />
       
       <main>
         <HeroSection />
