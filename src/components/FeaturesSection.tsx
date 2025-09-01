@@ -1,5 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Brain, BarChart3, Sprout, TreePine, DollarSign, MapPin } from "lucide-react";
+import { Brain, BarChart3, Sprout, TreePine, DollarSign, Leaf } from "lucide-react";
 
 const features = [
   {
@@ -19,18 +19,18 @@ const features = [
   },
   {
     icon: TreePine,
-    title: "Forestry Management",
-    description: "Intelligent forest monitoring and management systems that optimize carbon sequestration and sustainable forestry practices."
+    title: "Soil Carbon",
+    description: "Advanced soil carbon monitoring and measurement systems that track sequestration rates and optimize carbon storage in agricultural soils."
+  },
+  {
+    icon: Leaf,
+    title: "Regenerative Agriculture",
+    description: "Comprehensive regenerative farming practices that restore soil health, increase biodiversity, and enhance carbon sequestration capabilities."
   },
   {
     icon: DollarSign,
-    title: "Carbon Trading",
-    description: "Streamlined carbon credit verification and trading platform that connects African farmers and foresters to global carbon markets."
-  },
-  {
-    icon: MapPin,
-    title: "Kenya Operations",
-    description: "Operating in Kenya with localized solutions that understand regional climate challenges and opportunities."
+    title: "Carbon Credit Systems",
+    description: "End-to-end carbon credit verification, monitoring, and trading systems that connect smallholder farmers to premium carbon markets."
   }
 ];
 
