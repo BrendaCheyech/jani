@@ -17,7 +17,7 @@ const NavigationTabs = () => {
             </TabsTrigger>
             <TabsTrigger value="/demo" asChild>
               <Link to="/demo" className="px-6 py-2">
-                Demo
+                Platform
               </Link>
             </TabsTrigger>
             <TabsTrigger value="/impact" asChild>
