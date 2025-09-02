@@ -8,7 +8,7 @@ const NavigationTabs = () => {
   return (
     <div className="w-full border-b bg-background/80 backdrop-blur-md sticky top-0 z-50">
       <div className="container mx-auto px-4 py-3">
-        <Tabs value={currentPath} className="w-fit mx-auto">
+        <Tabs value={currentPath} className="w-fit">
           <TabsList className="grid w-full grid-cols-2">
             <TabsTrigger value="/" asChild>
               <Link to="/" className="px-6 py-2">
