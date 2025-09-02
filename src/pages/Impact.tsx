@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import AdaptationSection from "@/components/AdaptationSection";
+import NavigationTabs from "@/components/NavigationTabs";
 
 const Impact = () => {
   return (
@@ -16,6 +17,8 @@ const Impact = () => {
         <meta name="twitter:description" content="AI-driven climate adaptation and resilience solutions for African communities." />
         <link rel="canonical" href="/impact" />
       </Helmet>
+      
+      <NavigationTabs />
       
       <main>
         <AdaptationSection />
