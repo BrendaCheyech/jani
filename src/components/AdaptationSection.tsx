@@ -27,12 +27,17 @@ const adaptationFeatures = [
 
 const AdaptationSection = () => {
   return (
-    <section className="py-24 bg-gradient-hero">
-      <div className="container mx-auto px-4">
+    <section className="py-24 bg-gradient-to-br from-background via-accent/10 to-primary/10 relative overflow-hidden">
+      {/* Dramatic Background Effects */}
+      <div className="absolute inset-0 bg-gradient-hero opacity-60" />
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-pulse" />
+      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-accent/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }} />
+      
+      <div className="container mx-auto px-4 relative z-10">
         {/* Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Climate <span className="text-transparent bg-gradient-primary bg-clip-text">Adaptation & Resilience</span>
+        <div className="text-center mb-16 animate-fade-in">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 drop-shadow-sm">
+            Climate <span className="text-transparent bg-gradient-primary bg-clip-text drop-shadow-glow">Adaptation & Resilience</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
             Our Climate Intelligence platform doesn't just measure climate impact—it builds adaptive capacity. We help African communities anticipate, prepare for, and respond to climate variability while building long-term resilience.
@@ -41,29 +46,29 @@ const AdaptationSection = () => {
 
         {/* Key Stats */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-          <div className="text-center p-6 rounded-lg bg-white/5 backdrop-blur-sm border border-white/10">
-            <div className="text-3xl font-bold text-primary mb-2">85%</div>
-            <p className="text-muted-foreground">Improved crop resilience with AI-guided adaptation strategies</p>
+          <div className="text-center p-8 rounded-xl bg-gradient-to-br from-card/90 to-card/70 backdrop-blur-md border border-primary/30 shadow-dramatic hover:shadow-intense hover:scale-105 transition-all duration-500 animate-fade-in">
+            <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-3 drop-shadow-glow">85%</div>
+            <p className="text-muted-foreground font-medium">Improved crop resilience with AI-guided adaptation strategies</p>
           </div>
-          <div className="text-center p-6 rounded-lg bg-white/5 backdrop-blur-sm border border-white/10">
-            <div className="text-3xl font-bold text-primary mb-2">30 Days</div>
-            <p className="text-muted-foreground">Average advance warning time for climate events</p>
+          <div className="text-center p-8 rounded-xl bg-gradient-to-br from-card/90 to-card/70 backdrop-blur-md border border-accent/30 shadow-dramatic hover:shadow-intense hover:scale-105 transition-all duration-500 animate-fade-in" style={{ animationDelay: '100ms' }}>
+            <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-3 drop-shadow-glow">30 Days</div>
+            <p className="text-muted-foreground font-medium">Average advance warning time for climate events</p>
           </div>
-          <div className="text-center p-6 rounded-lg bg-white/5 backdrop-blur-sm border border-white/10">
-            <div className="text-3xl font-bold text-primary mb-2">500+</div>
-            <p className="text-muted-foreground">Kenyan farmers in our pilot adaptation program</p>
+          <div className="text-center p-8 rounded-xl bg-gradient-to-br from-card/90 to-card/70 backdrop-blur-md border border-primary/30 shadow-dramatic hover:shadow-intense hover:scale-105 transition-all duration-500 animate-fade-in" style={{ animationDelay: '200ms' }}>
+            <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-3 drop-shadow-glow">500+</div>
+            <p className="text-muted-foreground font-medium">Kenyan farmers in our pilot adaptation program</p>
           </div>
         </div>
 
         {/* Features Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           {adaptationFeatures.map((feature, index) => (
-            <Card key={index} className="group hover:shadow-lg transition-all duration-300 bg-white/10 backdrop-blur-sm border-white/20 hover:border-primary/30">
+            <Card key={index} className="group hover:shadow-intense hover:-translate-y-2 transition-all duration-500 bg-card/80 backdrop-blur-md border-primary/30 hover:border-primary/60 animate-fade-in" style={{ animationDelay: `${index * 150}ms` }}>
               <CardHeader className="pb-4">
-                <div className="w-12 h-12 rounded-lg bg-gradient-primary flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                  <feature.icon className="h-6 w-6 text-white" />
+                <div className="w-14 h-14 rounded-xl bg-gradient-primary flex items-center justify-center mb-4 group-hover:scale-125 group-hover:rotate-6 transition-all duration-500 shadow-dramatic group-hover:shadow-glow">
+                  <feature.icon className="h-7 w-7 text-white" />
                 </div>
-                <CardTitle className="text-xl font-semibold text-foreground">{feature.title}</CardTitle>
+                <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors duration-300">{feature.title}</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base leading-relaxed text-muted-foreground">
@@ -105,19 +110,19 @@ const AdaptationSection = () => {
           </div>
 
           <div className="space-y-6">
-            <div className="bg-card rounded-lg p-6 border">
-              <h4 className="text-xl font-semibold mb-4">Adaptation Success Story</h4>
-              <blockquote className="text-muted-foreground italic mb-4">
+            <div className="bg-gradient-to-br from-card/90 to-card/70 backdrop-blur-sm rounded-xl p-8 border border-primary/30 shadow-dramatic hover:shadow-intense transition-all duration-500">
+              <h4 className="text-2xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">Adaptation Success Story</h4>
+              <blockquote className="text-muted-foreground italic mb-4 text-lg leading-relaxed">
                 "Using Jani Intelligence's platform, we shifted to drought-resistant varieties and adjusted our planting calendar. Despite irregular rains this season, our yields increased by 40% while earning carbon credits."
               </blockquote>
-              <p className="text-sm font-medium">— Samuel Kimani, Farmer in Kiambu County, Kenya</p>
+              <p className="text-sm font-bold text-primary">— Samuel Kimani, Farmer in Kiambu County, Kenya</p>
             </div>
             
             <div className="text-center">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4">
+              <Button size="lg" className="bg-gradient-primary hover:scale-110 text-primary-foreground px-10 py-6 text-lg shadow-intense hover:shadow-glow transition-all duration-500 font-bold">
                 Join Our Adaptation Program
               </Button>
-              <p className="text-sm text-muted-foreground mt-2">
+              <p className="text-sm text-muted-foreground mt-3 font-medium">
                 Limited spots available for our Kenya pilot program
               </p>
             </div>
