@@ -1,6 +1,11 @@
 import { Helmet } from "react-helmet-async";
 import HeroSection from "@/components/HeroSection";
-import FeaturesSection from "@/components/FeaturesSection";
+import ScoreSection from "@/components/ScoreSection";
+import TrustSection from "@/components/TrustSection";
+import HowItWorksSection from "@/components/HowItWorksSection";
+import PricingSection from "@/components/PricingSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import CTASection from "@/components/CTASection";
 import NavigationTabs from "@/components/NavigationTabs";
 
 const Index = () => {
@@ -23,7 +28,12 @@ const Index = () => {
       
       <main>
         <HeroSection />
-        <FeaturesSection />
+        <ScoreSection />
+        <TrustSection />
+        <HowItWorksSection />
+        <PricingSection />
+        <TestimonialsSection />
+        <CTASection />
       </main>
     </>
   );
