@@ -47,15 +47,18 @@ const FeaturesSection = () => {
   };
 
   return (
-    <section className="py-24 bg-gradient-to-br from-background via-primary/10 to-accent/5 relative overflow-hidden">
-      {/* Background Effect */}
-      <div className="absolute inset-0 bg-gradient-glow opacity-50" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-primary/5 via-transparent to-accent/5" />
+    <section className="py-24 relative overflow-hidden">
+      {/* Dreamy Gradient Background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-orange-50 via-pink-50 to-blue-100" />
+      
+      {/* Floating Gradient Orbs */}
+      <div className="absolute top-10 right-20 w-72 h-72 bg-gradient-to-br from-purple-200/50 to-pink-200/40 rounded-full blur-3xl" />
+      <div className="absolute bottom-10 left-10 w-64 h-64 bg-gradient-to-br from-blue-200/50 to-cyan-200/40 rounded-full blur-3xl" />
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 drop-shadow-sm">
-            Climate <span className="text-transparent bg-gradient-primary bg-clip-text drop-shadow-glow">Intelligence Platform</span>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">
+            Climate <span className="bg-gradient-to-r from-primary via-purple-500 to-accent bg-clip-text text-transparent">Intelligence Platform</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Our comprehensive AI platform combines data analytics with local expertise to deliver climate solutions tailored for African agriculture and forestry sectors.
@@ -74,12 +77,12 @@ const FeaturesSection = () => {
               >
                 <div className={`relative w-full h-full transition-transform duration-700 transform-style-3d ${isFlipped ? 'rotate-y-180' : ''}`}>
                   {/* Front of Card */}
-                  <Card className="absolute w-full h-full backface-hidden group hover:shadow-intense transition-all duration-500 border-border/50 hover:border-primary/40 bg-card/80 backdrop-blur-sm">
+                  <Card className="absolute w-full h-full backface-hidden group hover:shadow-intense transition-all duration-500 border-white/60 hover:border-primary/40 bg-white/70 backdrop-blur-sm rounded-2xl">
                     <CardHeader className="pb-4">
-                      <div className="w-14 h-14 rounded-xl bg-gradient-primary flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-dramatic group-hover:shadow-glow">
+                      <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-primary to-purple-500 flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-dramatic group-hover:shadow-glow">
                         <feature.icon className="h-7 w-7 text-white" />
                       </div>
-                      <CardTitle className="text-xl font-bold group-hover:text-primary transition-colors duration-300">{feature.title}</CardTitle>
+                      <CardTitle className="text-xl font-bold text-primary group-hover:text-purple-600 transition-colors duration-300">{feature.title}</CardTitle>
                     </CardHeader>
                     <CardContent>
                       <p className="text-muted-foreground text-sm">Click to learn more</p>
@@ -87,7 +90,7 @@ const FeaturesSection = () => {
                   </Card>
                   
                   {/* Back of Card */}
-                  <Card className="absolute w-full h-full backface-hidden rotate-y-180 bg-gradient-primary text-white border-primary/40 shadow-intense">
+                  <Card className="absolute w-full h-full backface-hidden rotate-y-180 bg-gradient-to-br from-primary via-purple-500 to-accent text-white border-none shadow-intense rounded-2xl">
                     <CardHeader className="pb-4">
                       <CardTitle className="text-xl font-bold text-white">{feature.title}</CardTitle>
                     </CardHeader>
