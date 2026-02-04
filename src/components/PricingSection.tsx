@@ -34,10 +34,7 @@ const plans = [
 
 const PricingSection = () => {
   return (
-    <section className="relative py-24 overflow-hidden">
-      {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-100 via-pink-50 to-orange-100" />
-      <div className="absolute bottom-20 right-20 w-80 h-80 bg-gradient-to-br from-orange-200/60 to-yellow-200/40 rounded-full blur-3xl" />
+    <section className="relative py-24 overflow-hidden bg-background">
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 animate-fade-in">

@@ -3,14 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden pt-20">
-      {/* Dreamy Gradient Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-100 via-pink-50 to-orange-100" />
-      
-      {/* Floating Gradient Orbs */}
-      <div className="absolute top-20 left-10 w-96 h-96 bg-gradient-to-br from-blue-200/60 to-cyan-200/40 rounded-full blur-3xl animate-pulse" />
-      <div className="absolute bottom-20 right-10 w-80 h-80 bg-gradient-to-br from-orange-200/60 to-yellow-200/40 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }} />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-br from-pink-200/40 to-purple-200/30 rounded-full blur-3xl" />
+    <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden pt-20 bg-background">
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
