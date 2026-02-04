@@ -9,10 +9,7 @@ const metrics = [
 
 const TrustSection = () => {
   return (
-    <section className="relative py-24 overflow-hidden">
-      {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-100 via-pink-50 to-orange-100" />
-      <div className="absolute bottom-10 left-10 w-64 h-64 bg-gradient-to-br from-blue-200/50 to-cyan-200/40 rounded-full blur-3xl" />
+    <section className="relative py-24 overflow-hidden bg-background">
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 animate-fade-in">

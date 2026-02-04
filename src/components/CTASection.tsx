@@ -16,11 +16,7 @@ const CTASection = () => {
   };
 
   return (
-    <section className="relative py-24 overflow-hidden">
-      {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-100 via-pink-50 to-orange-100" />
-      <div className="absolute bottom-10 right-10 w-80 h-80 bg-gradient-to-br from-orange-200/60 to-yellow-200/40 rounded-full blur-3xl" />
-      <div className="absolute top-10 left-10 w-64 h-64 bg-gradient-to-br from-blue-200/50 to-cyan-200/40 rounded-full blur-3xl" />
+    <section className="relative py-24 overflow-hidden bg-background">
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mx-auto text-center">

@@ -47,13 +47,7 @@ const FeaturesSection = () => {
   };
 
   return (
-    <section className="py-24 relative overflow-hidden">
-      {/* Dreamy Gradient Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-orange-50 via-pink-50 to-blue-100" />
-      
-      {/* Floating Gradient Orbs */}
-      <div className="absolute top-10 right-20 w-72 h-72 bg-gradient-to-br from-purple-200/50 to-pink-200/40 rounded-full blur-3xl" />
-      <div className="absolute bottom-10 left-10 w-64 h-64 bg-gradient-to-br from-blue-200/50 to-cyan-200/40 rounded-full blur-3xl" />
+    <section className="py-24 relative overflow-hidden bg-background">
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 animate-fade-in">
