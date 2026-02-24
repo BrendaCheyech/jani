@@ -7,16 +7,16 @@ const ScoreSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            We turn your data into <span className="text-primary">information.</span>
+            We turn climate data into <span className="text-primary">intelligence.</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            To help growers know more — so they can grow more.
+            Helping startups and NGOs measure, track, and amplify their climate impact.
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto">
           <Card className="bg-background border-border rounded-2xl p-8 shadow-sm">
-            <h4 className="text-lg font-semibold text-foreground mb-6">Your Climate Intelligence Score</h4>
+            <h4 className="text-lg font-semibold text-foreground mb-6">Your Project Impact Score</h4>
 
             <div className="grid grid-cols-3 gap-8 mb-8">
               <div className="text-center">
@@ -40,12 +40,12 @@ const ScoreSection = () => {
             </div>
 
             <div className="border-t border-border pt-6">
-              <p className="text-sm font-medium text-muted-foreground mb-4"># Region Score</p>
+              <p className="text-sm font-medium text-muted-foreground mb-4"># Organization Score</p>
               <div className="space-y-3">
                 {[
-                  { rank: 1, name: "Kenya", tag: "Leader", desc: "Carbon Pioneer", score: 92 },
-                  { rank: 2, name: "Your Farm", tag: "You", desc: "Growing Strong", score: 89 },
-                  { rank: 3, name: "Tanzania", tag: "Emerging", desc: "Rising Fast", score: 78 },
+                  { rank: 1, name: "GreenTech Startup", tag: "Leader", desc: "Climate Pioneer", score: 92 },
+                  { rank: 2, name: "Your Organization", tag: "You", desc: "Growing Strong", score: 89 },
+                  { rank: 3, name: "Climate NGO", tag: "Emerging", desc: "Rising Fast", score: 78 },
                 ].map((item) => (
                   <div key={item.rank} className="flex items-center justify-between p-3 rounded-xl bg-secondary/50 hover:bg-secondary transition-colors">
                     <div className="flex items-center gap-4">

@@ -12,15 +12,15 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Jani Intelligence - AI-Powered Climate Solutions for Africa</title>
-        <meta name="description" content="Jani Intelligence leverages data analytics and AI to tackle climate challenges in Africa. Our Climate Intelligence platform focuses on agriculture and forestry carbon trading, starting with Kenya." />
-        <meta name="keywords" content="climate AI, Africa climate solutions, agriculture AI, forestry carbon trading, Kenya climate tech, data analytics climate, artificial intelligence agriculture" />
-        <meta property="og:title" content="Jani Intelligence - AI-Powered Climate Solutions for Africa" />
-        <meta property="og:description" content="Leveraging data analytics and AI to tackle climate challenges in Africa through agriculture and forestry carbon trading solutions." />
+        <title>Jani Intelligence - Climate AI for Startups & NGOs</title>
+        <meta name="description" content="Jani Intelligence builds Climate AI solutions for startups and NGOs working on climate change projects. From MRV to carbon markets, we turn climate data into actionable intelligence." />
+        <meta name="keywords" content="climate AI, climate tech startups, NGO climate tools, MRV solutions, carbon markets, climate finance, impact reporting, climate intelligence" />
+        <meta property="og:title" content="Jani Intelligence - Climate AI for Startups & NGOs" />
+        <meta property="og:description" content="AI-powered climate intelligence for startups and NGOs — MRV, carbon markets, impact reporting, and climate finance tools." />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Jani Intelligence - AI-Powered Climate Solutions for Africa" />
-        <meta name="twitter:description" content="AI-driven climate solutions for African agriculture and forestry sectors." />
+        <meta name="twitter:title" content="Jani Intelligence - Climate AI for Startups & NGOs" />
+        <meta name="twitter:description" content="AI-powered climate intelligence for startups and NGOs driving climate action." />
         <link rel="canonical" href="/" />
       </Helmet>
       

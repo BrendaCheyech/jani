@@ -5,32 +5,32 @@ const features = [
   {
     icon: Brain,
     title: "AI-Driven Analytics",
-    description: "Advanced machine learning algorithms analyze climate data to provide actionable insights for sustainable agriculture and forestry practices."
+    description: "Machine learning models that analyze climate project data, providing startups and NGOs with actionable insights to maximize their impact."
   },
   {
     icon: BarChart3,
-    title: "Data Intelligence",
-    description: "Comprehensive data analytics platform that processes environmental data to optimize carbon trading and climate impact assessment."
+    title: "Impact Intelligence",
+    description: "Comprehensive analytics platform that processes environmental data to help organizations measure, report, and verify their climate outcomes."
   },
   {
     icon: Sprout,
-    title: "Smart Agriculture",
-    description: "AI-powered solutions that help farmers adapt to climate change while maximizing crop yields and minimizing environmental impact."
+    title: "Project Monitoring",
+    description: "Real-time monitoring tools for climate change projects — from reforestation to clean energy — with automated progress tracking and alerts."
   },
   {
     icon: TreePine,
-    title: "Soil Carbon",
-    description: "Advanced soil carbon monitoring and measurement systems that track sequestration rates and optimize carbon storage in agricultural soils."
+    title: "MRV Solutions",
+    description: "Measurement, Reporting, and Verification systems that help organizations meet compliance standards and attract climate finance."
   },
   {
     icon: Leaf,
-    title: "Regenerative Agriculture",
-    description: "Comprehensive regenerative farming practices that restore soil health, increase biodiversity, and enhance carbon sequestration capabilities."
+    title: "Carbon Market Access",
+    description: "Connect your climate projects to carbon markets with AI-powered verification, credit estimation, and marketplace integration."
   },
   {
     icon: DollarSign,
-    title: "Carbon Credit Systems",
-    description: "End-to-end carbon credit verification, monitoring, and trading systems that connect smallholder farmers to premium carbon markets."
+    title: "Climate Finance Tools",
+    description: "Grant readiness assessments, impact forecasting, and investor reporting tools designed for climate-focused startups and NGOs."
   }
 ];
 
@@ -43,7 +43,7 @@ const FeaturesSection = () => {
             Climate Intelligence Platform
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Our comprehensive AI platform combines data analytics with local expertise to deliver climate solutions tailored for African agriculture and forestry sectors.
+            Our AI platform equips climate startups and NGOs with the data intelligence they need to measure impact, access carbon markets, and secure climate finance.
           </p>
         </div>
 
