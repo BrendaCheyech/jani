@@ -4,24 +4,20 @@ import { TrendingUp } from "lucide-react";
 const ScoreSection = () => {
   return (
     <section className="relative py-24 overflow-hidden bg-background">
-      
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-            AI Has Its Own Universe.
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+            We turn your data into <span className="text-primary">information.</span>
           </h2>
-          <h3 className="text-2xl md:text-3xl font-semibold text-primary/80 mb-6">
-            Is Your Farm in Orbit?
-          </h3>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Win the carbon market — and the sustainable future.
+            To help growers know more — so they can grow more.
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <Card className="bg-white/70 backdrop-blur-sm border-white/60 rounded-3xl p-8 shadow-intense">
-            <h4 className="text-lg font-semibold text-primary mb-6">Your Climate Intelligence Score</h4>
-            
+          <Card className="bg-background border-border rounded-2xl p-8 shadow-sm">
+            <h4 className="text-lg font-semibold text-foreground mb-6">Your Climate Intelligence Score</h4>
+
             <div className="grid grid-cols-3 gap-8 mb-8">
               <div className="text-center">
                 <p className="text-sm text-muted-foreground mb-2">Rank</p>
@@ -35,7 +31,7 @@ const ScoreSection = () => {
               </div>
               <div className="text-center">
                 <p className="text-sm text-muted-foreground mb-2">Progress</p>
-                <p className="text-3xl font-bold text-green-600 flex items-center justify-center">
+                <p className="text-3xl font-bold text-primary flex items-center justify-center">
                   <TrendingUp className="h-6 w-6 mr-1" />
                   10%
                 </p>
@@ -43,7 +39,7 @@ const ScoreSection = () => {
               </div>
             </div>
 
-            <div className="border-t border-border/50 pt-6">
+            <div className="border-t border-border pt-6">
               <p className="text-sm font-medium text-muted-foreground mb-4"># Region Score</p>
               <div className="space-y-3">
                 {[
@@ -51,11 +47,11 @@ const ScoreSection = () => {
                   { rank: 2, name: "Your Farm", tag: "You", desc: "Growing Strong", score: 89 },
                   { rank: 3, name: "Tanzania", tag: "Emerging", desc: "Rising Fast", score: 78 },
                 ].map((item) => (
-                  <div key={item.rank} className="flex items-center justify-between p-3 rounded-xl bg-white/50 hover:bg-white/80 transition-colors">
+                  <div key={item.rank} className="flex items-center justify-between p-3 rounded-xl bg-secondary/50 hover:bg-secondary transition-colors">
                     <div className="flex items-center gap-4">
                       <span className="text-lg font-bold text-primary">{item.rank}.</span>
                       <div>
-                        <p className="font-semibold text-primary">
+                        <p className="font-semibold text-foreground">
                           {item.name}
                           {item.tag === "You" && <span className="ml-2 text-xs bg-primary/10 text-primary px-2 py-0.5 rounded-full">You</span>}
                         </p>
