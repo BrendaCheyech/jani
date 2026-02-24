@@ -1,10 +1,10 @@
 import { Card } from "@/components/ui/card";
 
 const metrics = [
-  { score: 70, label: "Soil Health" },
-  { score: 73, label: "Carbon Capture" },
-  { score: 65, label: "Biodiversity" },
-  { score: 78, label: "Water Usage" },
+  { score: 70, label: "Emissions Tracking" },
+  { score: 73, label: "Carbon Offsetting" },
+  { score: 65, label: "Impact Reporting" },
+  { score: 78, label: "MRV Compliance" },
 ];
 
 const TrustSection = () => {
@@ -13,11 +13,11 @@ const TrustSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Our roots are in Kenya.{" "}
-            <span className="text-primary">Our reach is global.</span>
+            Built for climate organizations.{" "}
+            <span className="text-primary">Powered by AI.</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We track how AI verifies your Soil Health, Carbon Capture, Biodiversity, and Water Usage — showing exactly where you're gaining ground.
+            We help startups and NGOs track Emissions, Carbon Offsetting, Impact Reporting, and MRV Compliance — so you can prove and scale your climate impact.
           </p>
         </div>
 

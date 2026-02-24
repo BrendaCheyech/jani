@@ -20,10 +20,10 @@ const CTASection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-6">
-            Growers or technologists, we're always excited to meet our people.
+            Whether you're a startup or an NGO, we'd love to work with you.
           </h2>
           <p className="text-xl text-primary-foreground/80 mb-12">
-            Get in touch today — we've opened our Climate Intelligence Mapping service to a small group of forward-thinking farms.
+            Get in touch today — we're onboarding a select group of climate organizations onto our AI platform.
           </p>
 
           <Card className="bg-background border-none rounded-2xl p-8 shadow-lg">
@@ -34,7 +34,7 @@ const CTASection = () => {
                 </label>
                 <Input
                   type="url"
-                  placeholder="https://yourfarm.com"
+                  placeholder="https://yourorganization.com"
                   value={formData.website}
                   onChange={(e) => setFormData({ ...formData, website: e.target.value })}
                   className="bg-background border-border rounded-xl py-6 focus:border-primary"
@@ -44,11 +44,11 @@ const CTASection = () => {
 
               <div>
                 <label className="block text-sm font-medium text-foreground mb-2 text-left">
-                  Your Farm Name (Required)
+                  Organization Name (Required)
                 </label>
                 <Input
                   type="text"
-                  placeholder="Wanjiku Farms"
+                  placeholder="Your Startup or NGO"
                   value={formData.farmName}
                   onChange={(e) => setFormData({ ...formData, farmName: e.target.value })}
                   className="bg-background border-border rounded-xl py-6 focus:border-primary"
@@ -75,7 +75,7 @@ const CTASection = () => {
                 size="lg"
                 className="w-full bg-primary hover:bg-primary/90 text-primary-foreground rounded-full py-6 text-lg transition-all duration-300"
               >
-                Map My Farm in AI's Mind
+                Get Climate Intelligence
               </Button>
             </form>
           </Card>

@@ -3,32 +3,32 @@ import { Card } from "@/components/ui/card";
 
 const plans = [
   {
-    name: "Smallholder",
-    subtitle: "Individual farmers, small plots",
+    name: "Starter",
+    subtitle: "Early-stage startups, small NGOs",
     auditPrice: "$99",
     monthlyPrice: "$29",
     commitment: "No minimum • Cancel anytime",
     cta: "Get Started",
-    highlight: "Essential climate tracking for growing farms",
+    highlight: "Essential climate analytics for growing teams",
   },
   {
-    name: "Cooperative",
-    subtitle: "Farmer groups, cooperatives",
+    name: "Growth",
+    subtitle: "Scaling startups, mid-size NGOs",
     auditPrice: "$499",
     monthlyPrice: "$149",
     commitment: "3-month minimum",
     cta: "Book Demo",
-    highlight: "Complete intelligence for scaling operations",
+    highlight: "Full intelligence suite for scaling impact",
     featured: true,
   },
   {
     name: "Enterprise",
-    subtitle: "Large estates, corporations",
+    subtitle: "Large organizations, multilaterals",
     auditPrice: "Custom",
     monthlyPrice: "Custom",
     commitment: "Annual contract",
     cta: "Contact Sales",
-    highlight: "Custom solutions for market leaders",
+    highlight: "Custom solutions for maximum impact",
   },
 ];
 
@@ -41,7 +41,7 @@ const PricingSection = () => {
             Turn Climate Visibility Into <span className="text-primary">Growth.</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Understand how AI perceives your farm, improve your ranking, and track your progress over time.
+            Choose the plan that fits your organization — from early-stage startups to established climate NGOs.
           </p>
         </div>
 

@@ -13,8 +13,8 @@ const HeroSection = () => {
             Jani Intelligence
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            We leverage <strong className="text-foreground">data analytics</strong> and{" "}
-            <strong className="text-foreground">AI</strong> to tackle climate challenges in Africa — starting with agriculture and forestry carbon trading in Kenya.
+            We build <strong className="text-foreground">Climate AI solutions</strong> for{" "}
+            <strong className="text-foreground">startups and NGOs</strong> working on climate change projects — turning complex climate data into actionable intelligence.
           </p>
           <div className="pt-4 flex items-center justify-center gap-4">
             <Button

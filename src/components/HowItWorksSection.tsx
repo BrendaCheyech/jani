@@ -5,18 +5,18 @@ import { useState } from "react";
 const steps = [
   {
     icon: BarChart3,
-    title: "See How AI Ranks You",
-    description: "Across 5+ climate platforms",
+    title: "Assess Your Project",
+    description: "AI-powered climate project analysis",
   },
   {
     icon: Target,
     title: "Get Your Action Plan",
-    description: "Targeted improvements that work",
+    description: "Tailored recommendations for impact",
   },
   {
     icon: TrendingUp,
-    title: "Outrank Competitors",
-    description: "With proven carbon strategies",
+    title: "Scale Your Impact",
+    description: "With data-driven climate strategies",
   },
 ];
 
@@ -24,23 +24,23 @@ const phases = [
   {
     id: "understand",
     label: "Understand",
-    subtitle: "Know your carbon footprint",
-    description: "Discover exactly how AI platforms measure and verify your carbon capture compared to regional competitors.",
-    features: ["AI Ranking", "Carbon Score", "Accuracy Check"],
+    subtitle: "Map your climate impact",
+    description: "Our AI analyzes your project data, benchmarks your impact against global standards, and identifies gaps in your MRV processes.",
+    features: ["Impact Analysis", "MRV Audit", "Gap Assessment"],
   },
   {
     id: "improve",
     label: "Improve",
-    subtitle: "Close the sustainability gap",
-    description: "Get actionable recommendations to improve your soil health, increase carbon sequestration, and boost biodiversity metrics.",
-    features: ["Action Plans", "Best Practices", "Real-time Monitoring"],
+    subtitle: "Optimize your outcomes",
+    description: "Get actionable recommendations to strengthen your climate project — from better data collection to improved reporting and verification workflows.",
+    features: ["Action Plans", "Data Pipelines", "Reporting Tools"],
   },
   {
     id: "lead",
     label: "Lead",
-    subtitle: "Stay ahead of climate evolution",
-    description: "Continuously track your progress and maintain market leadership in the carbon credit ecosystem.",
-    features: ["Market Insights", "Trend Analysis", "Competitive Edge"],
+    subtitle: "Unlock climate finance",
+    description: "Position your organization for carbon market access, grant funding, and investor confidence with verified, AI-backed impact data.",
+    features: ["Market Access", "Grant Readiness", "Investor Reports"],
   },
 ];
 

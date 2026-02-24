@@ -40,7 +40,7 @@ const AdaptationSection = () => {
             Climate <span className="text-transparent bg-gradient-primary bg-clip-text drop-shadow-glow">Adaptation & Resilience</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Our Climate Intelligence platform doesn't just measure climate impact—it builds adaptive capacity. We help African communities anticipate, prepare for, and respond to climate variability while building long-term resilience.
+            Our Climate Intelligence platform doesn't just measure impact — it builds adaptive capacity. We help startups and NGOs anticipate, prepare for, and respond to climate variability while scaling their projects.
           </p>
         </div>
 
@@ -48,15 +48,15 @@ const AdaptationSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           <div className="text-center p-8 rounded-xl bg-gradient-to-br from-card/90 to-card/70 backdrop-blur-md border border-primary/30 shadow-dramatic hover:shadow-intense hover:scale-105 transition-all duration-500 animate-fade-in">
             <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-3 drop-shadow-glow">85%</div>
-            <p className="text-muted-foreground font-medium">Improved crop resilience with AI-guided adaptation strategies</p>
+            <p className="text-muted-foreground font-medium">Improved project outcomes with AI-guided strategies</p>
           </div>
           <div className="text-center p-8 rounded-xl bg-gradient-to-br from-card/90 to-card/70 backdrop-blur-md border border-accent/30 shadow-dramatic hover:shadow-intense hover:scale-105 transition-all duration-500 animate-fade-in" style={{ animationDelay: '100ms' }}>
-            <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-3 drop-shadow-glow">30 Days</div>
-            <p className="text-muted-foreground font-medium">Average advance warning time for climate events</p>
+            <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-3 drop-shadow-glow">2x Faster</div>
+            <p className="text-muted-foreground font-medium">Average time-to-market for climate project reporting</p>
           </div>
           <div className="text-center p-8 rounded-xl bg-gradient-to-br from-card/90 to-card/70 backdrop-blur-md border border-primary/30 shadow-dramatic hover:shadow-intense hover:scale-105 transition-all duration-500 animate-fade-in" style={{ animationDelay: '200ms' }}>
-            <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-3 drop-shadow-glow">500+</div>
-            <p className="text-muted-foreground font-medium">Kenyan farmers in our pilot adaptation program</p>
+            <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-3 drop-shadow-glow">50+</div>
+            <p className="text-muted-foreground font-medium">Climate organizations in our pilot program</p>
           </div>
         </div>
 
@@ -113,9 +113,9 @@ const AdaptationSection = () => {
             <div className="bg-gradient-to-br from-card/90 to-card/70 backdrop-blur-sm rounded-xl p-8 border border-primary/30 shadow-dramatic hover:shadow-intense transition-all duration-500">
               <h4 className="text-2xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">Adaptation Success Story</h4>
               <blockquote className="text-muted-foreground italic mb-4 text-lg leading-relaxed">
-                "Using Jani Intelligence's platform, we shifted to drought-resistant varieties and adjusted our planting calendar. Despite irregular rains this season, our yields increased by 40% while earning carbon credits."
+               "Using Jani's platform, our NGO automated its impact reporting and accessed carbon markets for the first time. We secured $200K in climate finance within 6 months of onboarding."
               </blockquote>
-              <p className="text-sm font-bold text-primary">— Samuel Kimani, Farmer in Kiambu County, Kenya</p>
+              <p className="text-sm font-bold text-primary">— David Mwangi, Director at EcoResilience Kenya</p>
             </div>
             
             <div className="text-center">
@@ -123,7 +123,7 @@ const AdaptationSection = () => {
                 Join Our Adaptation Program
               </Button>
               <p className="text-sm text-muted-foreground mt-3 font-medium">
-                Limited spots available for our Kenya pilot program
+                Limited spots available for climate startups and NGOs
               </p>
             </div>
           </div>
