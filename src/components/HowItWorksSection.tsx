@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { BarChart3, Target, TrendingUp, Brain, Leaf, DollarSign } from "lucide-react";
+import { BarChart3, Target, TrendingUp } from "lucide-react";
 import { useState } from "react";
 
 const steps = [
@@ -50,10 +50,9 @@ const HowItWorksSection = () => {
 
   return (
     <section className="relative py-24 overflow-hidden bg-background">
-      
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
             How It Works
           </h2>
           <p className="text-xl text-muted-foreground">
@@ -61,36 +60,33 @@ const HowItWorksSection = () => {
           </p>
         </div>
 
-        {/* Steps */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-20">
           {steps.map((step, index) => (
-            <Card key={index} className="bg-white/70 backdrop-blur-sm border-white/60 rounded-3xl p-8 text-center shadow-lg hover:shadow-intense transition-all duration-300 hover:-translate-y-2">
-              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-primary to-purple-500 flex items-center justify-center shadow-dramatic">
-                <step.icon className="h-8 w-8 text-white" />
+            <Card key={index} className="bg-background border-border rounded-2xl p-8 text-center hover:shadow-md transition-all duration-300 hover:-translate-y-1">
+              <div className="w-14 h-14 mx-auto mb-6 rounded-xl bg-primary/10 flex items-center justify-center">
+                <step.icon className="h-7 w-7 text-primary" />
               </div>
-              <h3 className="text-lg font-bold text-primary mb-2">{step.title}</h3>
+              <h3 className="text-lg font-bold text-foreground mb-2">{step.title}</h3>
               <p className="text-muted-foreground">{step.description}</p>
             </Card>
           ))}
         </div>
 
-        {/* Deep Dive */}
         <div className="max-w-5xl mx-auto">
-          <h3 className="text-2xl font-bold text-primary text-center mb-8">
+          <h3 className="text-2xl font-bold text-foreground text-center mb-8">
             Deep Dive Into Our Process
           </h3>
           <p className="text-center text-muted-foreground mb-8">Click on each phase to explore</p>
 
-          {/* Phase Tabs */}
           <div className="flex justify-center gap-4 mb-12">
             {phases.map((phase) => (
               <button
                 key={phase.id}
                 onClick={() => setActivePhase(phase.id)}
-                className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${
+                className={`px-6 py-3 rounded-full font-medium transition-all duration-300 border ${
                   activePhase === phase.id
-                    ? "bg-primary text-white shadow-dramatic"
-                    : "bg-white/70 text-primary hover:bg-white/90"
+                    ? "bg-primary text-primary-foreground border-primary"
+                    : "bg-background text-foreground border-border hover:border-primary/40"
                 }`}
               >
                 <span className="font-bold">{phase.label}</span>
@@ -99,19 +95,18 @@ const HowItWorksSection = () => {
             ))}
           </div>
 
-          {/* Phase Content */}
-          <Card className="bg-white/70 backdrop-blur-sm border-white/60 rounded-3xl p-8 shadow-lg">
+          <Card className="bg-background border-border rounded-2xl p-8">
             <div className="flex items-start gap-8">
               <div className="flex-1">
                 <p className="text-xs text-primary font-semibold mb-2">PHASE {phases.findIndex(p => p.id === activePhase) + 1}</p>
-                <h4 className="text-2xl font-bold text-primary mb-2">{currentPhase.label}</h4>
+                <h4 className="text-2xl font-bold text-foreground mb-2">{currentPhase.label}</h4>
                 <p className="text-muted-foreground mb-6">{currentPhase.subtitle}</p>
                 <p className="text-foreground leading-relaxed mb-6">{currentPhase.description}</p>
-                
+
                 <div className="grid grid-cols-3 gap-4">
                   {currentPhase.features.map((feature) => (
-                    <Card key={feature} className="bg-white/50 border-primary/20 rounded-xl p-4 text-center hover:bg-primary/5 transition-colors cursor-pointer">
-                      <p className="font-medium text-primary text-sm">{feature}</p>
+                    <Card key={feature} className="bg-secondary/50 border-border rounded-xl p-4 text-center hover:bg-secondary transition-colors cursor-pointer">
+                      <p className="font-medium text-foreground text-sm">{feature}</p>
                       <p className="text-xs text-muted-foreground mt-1">Click to learn more →</p>
                     </Card>
                   ))}
